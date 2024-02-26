@@ -25,7 +25,7 @@ submitForm.addEventListener("change", function (e) {
 submitForm.addEventListener("submit", function (e) {
   e.preventDefault();
 
-  if (selectedSeats.length > 0) window.location.href = "/alert.html";
+  if (selectedSeats.length > 0) window.location.href = "./alert.html";
   else alert("You Haven't Selected any Seat!");
 });
 
